@@ -62,7 +62,7 @@ class _YoutubeVideoAppState extends State<YoutubeVideoApp> {
               const SizedBox(width: 14),
               CurrentPosition(),
               const SizedBox(width: 8),
-              ProgressBar(),
+              ProgressBar(isExpanded: true),
               RemainingDuration(),
               const PlaybackSpeedButton(),
             ]),
