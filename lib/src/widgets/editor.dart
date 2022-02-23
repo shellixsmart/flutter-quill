@@ -178,7 +178,7 @@ class QuillEditor extends StatefulWidget {
   factory QuillEditor.basic({
     required QuillController controller,
     required bool readOnly,
-    required bool showCursor,
+    bool showCursor = false,
     Brightness? keyboardAppearance,
   }) {
     return QuillEditor(
