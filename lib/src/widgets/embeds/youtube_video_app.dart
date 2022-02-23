@@ -56,16 +56,17 @@ class _YoutubeVideoAppState extends State<YoutubeVideoApp> {
       height: 300,
       child: YoutubePlayerBuilder(
         player: YoutubePlayer(
-            controller: _youtubeController,
-            showVideoProgressIndicator: true,
-            bottomActions: [
-              const SizedBox(width: 14),
-              CurrentPosition(),
-              const SizedBox(width: 8),
-              ProgressBar(isExpanded: true),
-              RemainingDuration(),
-              const PlaybackSpeedButton(),
-            ]),
+          controller: _youtubeController,
+          //showVideoProgressIndicator: true,
+          bottomActions: [
+            const SizedBox(width: 14),
+            CurrentPosition(),
+            const SizedBox(width: 8),
+            ProgressBar(isExpanded: true),
+            RemainingDuration(),
+            const PlaybackSpeedButton(),
+          ],
+        ),
         builder: (context, player) {
           return Column(
             children: [
