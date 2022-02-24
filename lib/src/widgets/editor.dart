@@ -179,6 +179,7 @@ class QuillEditor extends StatefulWidget {
     required QuillController controller,
     required bool readOnly,
     bool showCursor = false,
+    bool autoFocus = false,
     Brightness? keyboardAppearance,
   }) {
     return QuillEditor(
@@ -187,7 +188,7 @@ class QuillEditor extends StatefulWidget {
       scrollable: true,
       showCursor: showCursor,
       focusNode: FocusNode(),
-      autoFocus: true,
+      autoFocus: autoFocus,
       readOnly: readOnly,
       expands: false,
       padding: EdgeInsets.zero,
