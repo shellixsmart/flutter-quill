@@ -180,6 +180,7 @@ class QuillEditor extends StatefulWidget {
     required bool readOnly,
     bool showCursor = false,
     bool autoFocus = false,
+    EmbedBuilder? embedBuilder,
     Brightness? keyboardAppearance,
   }) {
     return QuillEditor(
@@ -192,6 +193,7 @@ class QuillEditor extends StatefulWidget {
       readOnly: readOnly,
       expands: false,
       padding: EdgeInsets.zero,
+      embedBuilder: embedBuilder ?? defaultEmbedBuilder,
       keyboardAppearance: keyboardAppearance ?? Brightness.light,
     );
   }
