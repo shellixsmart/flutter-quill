@@ -30,7 +30,7 @@ dependencies:
   i18n_extension: ^4.2.0
   gallery_saver:
     git:
-      url: git://github.com/shellixsmart/gallery_saver.git
+      url: https://github.com/shellixsmart/gallery_saver.git
   device_info_plus: ^3.2.1
 
 dev_dependencies:
