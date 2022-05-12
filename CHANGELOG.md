@@ -1,3 +1,54 @@
+# [4.1.9]
+* Using properly iconTheme colors.
+
+# [4.1.8]
+* Update font size dropdown.
+
+# [4.1.7]
+* Convert FontSize to a Map to allow for named Font Size.
+
+# [4.1.6]
+* Update quill_dropdown_button.dart.
+
+# [4.1.5]
+* Add Font Size dropdown to the toolbar.
+
+# [4.1.4]
+* New borderRadius for iconTheme.
+
+# [4.1.3]
+* Fix selection handles show/hide after paste, backspace, copy.
+
+# [4.1.2]
+* Add full support for hardware keyboards (Chromebook, Android tablets, etc) that don't alter screen UI.
+
+# [4.1.1]
+* Added textSelectionControls field in QuillEditor.
+
+# [4.1.0]
+* Added Node to linkActionPickerDelegate.
+
+# [4.0.12]
+* Add Persian(fa) language.
+
+# [4.0.11]
+* Fix cut selection error in multi-node line.
+
+# [4.0.10]
+* Fix vertical caret position bug.
+
+# [4.0.9]
+* Request keyboard focus when no child is found.
+
+# [4.0.8]
+* Fix blank lines do not display when --web-renderer=html.
+
+# [4.0.7]
+* Refactor getPlainText (better handling of blank lines and lines with multiple markups.
+
+# [4.0.6]
+* Bug fix for copying text with new lines.
+
 # [4.0.5]
 * Fixed casting null to Tuple2 when link dialog is dismissed without any input (e.g. barrier dismissed).
 
